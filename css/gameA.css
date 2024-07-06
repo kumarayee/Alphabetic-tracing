@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-srif;
+    margin:0;
+    padding:0;
+  }
+   
+  body{
+    color:aqua; 
+    height: 100vh;
+    width: 100vw; 
+    overflow: hidden;
+  }
+  
+  
+  
+  .background-image{
+  position: absolute;
+  height: 100vh;
+  width: 100vw; 
+  z-index: -2;
+  }
+  
+  .color1{
+    position: absolute;
+    /* background-color: aquamarine; */
+    height: 14vh;
+    width: 10vw;
+    top:30vh;
+    left: 6vw;
+  }
+  
+  .color2{
+    position: absolute;
+    /* background-color: rgb(127, 146, 255); */
+    height: 14vh;
+    width: 10vw;
+    top:53vh;
+    left: 6vw;
+  }
+
+  .color3{
+    position: absolute;
+    /* background-color: rgb(255, 127, 176); */
+    height: 14vh;
+    width: 10vw;
+    top:76vh;
+    left: 6vw;
+  }
+
+  .color4{
+    position: absolute;
+    /* background-color: rgb(255, 127, 176); */
+    height: 14vh;
+    width: 10vw;
+    top:30vh;
+    left: 84vw;
+  }
+
+  .color5{
+    position: absolute;
+    /* background-color: rgb(255, 127, 176); */
+    height: 14vh;
+    width: 10vw;
+    top:53vh;
+    left: 84vw;
+  }
+
+  .color6{
+    position: absolute;
+    /* background-color: rgb(255, 127, 176); */
+    height: 14vh;
+    width: 10vw;
+    top:76vh;
+    left: 84vw;
+  }
+
+  .previous{
+    position: absolute;
+    /* background-color: rgb(255, 127, 176); */
+    height: 9vh;
+    width: 6vw;
+    top:80vh;
+    left: 20vw;
+  }
+
+  .next{
+    position: absolute;
+    /* background-color: rgb(255, 127, 176); */
+    height: 9vh;
+    width: 6vw;
+    top:80vh;
+    left: 74.4vw;
+  }
+  
+  .audio-button{
+    margin-left: 0rem;
+    width: 12rem;
+    position:fixed;
+  }
+  
+  #audio-button{
+      width: 100px;
+      height: 100px;
+    }
+  
+  
+  #next_button{
+    position:absolute;
+    height: 30vh;
+    width: 30vw;
+    /* background-color: #651fff; */
+    z-index: 6;
+    top: 80vh;
+    left: 80vw;
+  }
+  #back_button{
+    position:absolute;
+    height: 30vh;
+    width: 30vw;
+    /* background-color: aqua; */
+    z-index: 6;
+    top: 80vh;
+    left: 10vw;
+  
+  }
+  .audio-button{
+    z-index: 4;
+    width: 6rem;
+    position:absolute;
+    top: 9vh;
+  }
+  

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kids elearning</title>
+  <link rel="stylesheet" type="text/css" href="./css/gameA.css">
+  <script src="./js/p5.min.js"></script>
+  <script src="./js/gameC.js"></script>
+</head>
+
+<body>
+  <main>
+    <div class="playbackground">
+      <audio id="background-audio" loop volume=0.1>
+        <source src="assets/common/background.mpeg" type="audio/mpeg">
+      </audio>
+      </div>   
+      <div class="audio-button">
+        <audio id="instruction-audio">
+          <source src="assets/options/audio/game10instruction.mp3" type="audio/mpeg">
+        </audio>
+        <img src="assets/common/play.gif" id="audio-button" alt="play" class="profile-image" onclick="playInstruction()">
+      </div> 
+   
+    <div id="cursor">
+    </div>
+
+
+    <img src ="assets/gameA/images/gameA-background.png" class="background-image">
+    <img src ="assets/gameA/images/gameC-heading.png" class="background-image">
+    <img src ="assets/gameA/images/gameA-left-color-container.png" class="background-image">
+    <img src ="assets/gameA/images/gameA-right-color-container.png" class="background-image">
+
+    <img src ="assets/gameA/images/gameC-count.png" class="background-image">
+    <img src ="assets/gameA/images/gameC-skeleton.png" class="background-image">
+    <img src ="assets/gameA/images/gameA-leftbutton.png" class="background-image">
+    <img src ="assets/gameA/images/gameA-rightbutton.png" class="background-image">
+    <img src ="assets/gameA/images/gameA-color1.png" class="background-image">
+    <img src ="assets/gameA/images/gameA-color2.png" class="background-image">
+    <img src ="assets/gameA/images/gameA-color3.png" class="background-image">
+    <img src ="assets/gameA/images/gameA-color4.png" class="background-image">
+    <img src ="assets/gameA/images/gameA-color5.png" class="background-image">
+    <img src ="assets/gameA/images/gameA-color6.png" class="background-image">
+    <img src ="assets/gameA/images/gameC-cat.png" class="background-image">
+
+    <div class="color1">
+    </div>
+    <div class="color2">
+    </div>
+    <div class="color3">
+    </div>
+    <div class="color4">
+    </div>
+    <div class="color5">
+    </div>
+    <div class="color6">
+    </div>
+
+    <a href="gameB.html" class="previous"></a>
+    <a href="gameC4.html" class="next"></a>
+
+
+
+
+
+
+
+
+    <div class="solution">
+      <audio id="wronganswer-audio">
+        <source src="assets/options/audio/wrong-beep.mp3" type="audio/mpeg">
+      </audio>
+      <audio id="correctanswer-audio">
+        <source src="assets/options/audio/right-claps.mp3" type="audio/mpeg">
+      </audio>
+      <audio id="correctanswer-claps-audio">
+        <source src="assets/options/audio/levelwin.mp3" type="audio/mp3">
+      </audio>
+    </div>
+   
+  </main>
+</body> 
+
+</html>
